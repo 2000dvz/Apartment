@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 765px){
+	.toggle{
+		clear: both;
+		display: block;
+		text-align: center;
+		font-size: 18px;
+		line-height: 40px;
+		/*width: 100%;*/
+		background: #A1C651;
+		transition: all .1s linear;
+		border-radius: 3px;
+		margin-left: 10px;
+		margin-top: 5px;
+		box-shadow: 0 0 12px black;
+	}
+	.toggle:hover{
+		background: rgba(161, 198, 81, 0.63);
+	}
+	.toggle img{
+		margin-top: 2px;
+		margin-bottom: 4px;
+	}
+	.logohed img {
+		margin-left: 116px;
+	}
+	.carousel-indicators {
+		margin-left: 12%;
+	}
+	label{
+		display: block;
+	}
+	#checkbox__menu:checked + label .touch li{
+		opacity: 1;
+		visibility: visible;
+		transition: all .7s linear;
+	}
+	#checkbox__menu:checked + label .touch{/*на сколько будит вниз открываться*/
+		height: 370px;/*350*/
+	}
+	.menu{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		height: 0;
+		transition: height .3s linear;
+	}
+	.menu li{
+		display: flex;
+		align-self: center;
+		width: 95%;
+		opacity: 0;
+		visibility: hidden;
+	}
+	.menu li a{
+		width: 100%;
+		text-align: center;
+		align-self: center;
+		align-content: center;
+		padding-right: 30px;
+	}
+	.menu li a.logo{
+		margin-right: 0;
+	}
+	.menu li a.contacts{
+		margin-right: 0;
+	}
+	.logohed img{
+		margin-left: 104px;
+	}
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon{
+		display: none;
+	}
+	.intro{
+		margin-top: 0;
+		display: block;
+		max-width: 100%;
+	}
+	.intro__img{
+		background-position: bottom 0 right 252px;
+		margin-top: -55px;
+	}
+	.intro .intro__text{
+		position: relative;
+		font-size: 35px;
+		right: -10px;
+		top: -380px;
+	}
+	.intro .intro__contacts{
+		left: 0;
+		right: 0;
+		top: -625px;
+		padding: 20px 20px;
+		position: relative;
+	}
+	.intro__contacts i{
+		margin-right: 10px;
+	}
+	.intro__contacts p{
+		font-size: 13px;
+		margin-right: 0;
+	}
+	.stats{
+		margin-top: 0;
+		flex-direction: column;
+	}
+	.stats__text{
+		padding: 10px;
+	}
+	.stats__text h2{
+		font-size: 30px;
+		margin-bottom: 10px;
+		margin-left: 20px;
+	}
+	.stats__text p{
+		margin-top: 5px;
+		font-size: 13px;
+		line-height: 18px;
+		margin-left: 20px;
+	}
+	.square img{
+		height: 140px;
+		width: 130px;
+	}
+	.cards{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+		grid-row-gap: 10px;
+		grid-row-gap: 30px;
+		justify-content: center;
+	}
+	.apart input[type=text]{
+		margin-top: 0;
+		width: 183px;
+		margin-left: -22px;
+	}
+	.buttons__search{
+		flex-direction: column;
+		margin-left: 4%;
+	}
+	.all{
+		margin-top: 10px;
+		margin-left: 0;
+	}
+	.card img{
+		width: 100%;
+		height: 60%;
+	}
+	.img__overflof {
+		height: 457%;
+	}
+	.steps__container {
+		flex-direction: column;
+	}
+	.stepblok{
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.serv__container{
+		margin-top: 20px;
+		flex-direction: column;
+	}
+	.serv__img-container{
+		width: 100%;
+		margin-left: -40px;
+	}
+	.serv__text{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.services h2 {
+		margin-left: 20px;
+	}
+	.services p {
+		margin-left: 20px;
+	}
+	.services h4{
+		margin-left: 20px;
+	}
+	.agent__cards{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.agent__card {
+		margin-top: 20px;
+	}
+	.add__line{
+		flex-direction: column;
+	}
+	.location{
+		font-size: 15px;
+		padding: 15px 10px 18px 11px;
+	}
+	.location__usa{
+		left: 100px;
+		bottom: 50px;
+	}
+	.location__australia{
+		left: 60px;
+		bottom: 50px;
+	}
+	.line__img img {
+		width: 100%;
+		margin-left: -20px;
+	}
+	.add__line h3{
+		font-size: 25px;
+		margin-top: 75px;
+		margin-bottom: 40px;
+		margin-left: 5%;
+	}
+	.add__line p{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.add__line-right p{
+		margin-left: 5%;
+	}
+	.show__more{
+	font-size: 15px;
+	padding: 20px 50px 20px 35px;
+	margin-left: 15%;
+	margin-top: 20px;
+	}
+	.footer__block{
+		flex-direction: column;
+	}
+	.footer__logo{
+		font-size: 25px;
+		text-align: center;
+	}
+	.footer__search input[type=text]{
+		width: 100%;
+		height: 50px;
+		margin-top: 15px;
+	}
+	.footer__search{
+		display: flex;
+		justify-content: center;
+	}
+	.footer__links{
+		flex-wrap: wrap;
+		margin-left: 5%;
+		padding-right: 5%;
+	}
+	.footer__copy p{
+		text-align: center;
+	}
+}
